@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=FizzBuzz
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=n
+comment2.target=boolean\ mod5(int)
+comment3.params=n
+comment3.target=boolean\ mod3(int)
+numComments=4
