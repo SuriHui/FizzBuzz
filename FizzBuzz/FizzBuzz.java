@@ -4,21 +4,18 @@ public class FizzBuzz
     {
         int Fizz = 0;
         int Buzz = 0;
-        int i = 1;
         
-        for (i = 1; i <= 100; i++) { 
+        for (int i = 1; i <= 100; i++) { 
             Fizz++;
             Buzz++;
             if (Fizz == 3 && Buzz == 5) {
                 System.out.println("FizzBuzz");
                 Fizz = 0;
                 Buzz = 0;
-            }
-            if (Fizz == 3) {
+            } else if (Fizz == 3) {
                 System.out.println("Fizz");
                 Fizz = 0;
-            }
-            if (Buzz == 5) {
+            } else if (Buzz == 5) {
                 System.out.println("Buzz");
                 Buzz = 0;
             } else {
